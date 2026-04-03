@@ -13,7 +13,7 @@
         </div>
         <div class="method-content">
           <div class="payment-display">
-            <img src="/edu-knowlege/support-alipay.png" alt="支付宝赞赏二维码" />
+            <img src="/support-alipay.png" alt="支付宝赞赏二维码" />
           </div>
         </div>
         <div class="method-footer">
@@ -28,7 +28,7 @@
         </div>
         <div class="method-content">
           <div class="payment-display">
-            <img src="/edu-knowlege/wechat-qrcode.jpg" alt="微信赞赏二维码" />
+            <img src="/support-wechat.jpg" alt="微信赞赏二维码" />
           </div>
         </div>
         <div class="method-footer">
@@ -44,8 +44,8 @@
         <div class="method-content">
           <div class="payment-display">
             <stripe-buy-button
-              buy-button-id="buy_btn_1Qur4TFE3lcYYI0Qm47QfSxG"
-              publishable-key="pk_live_51Quq6zFE3lcYYI0QaKgeMb4WjyVVeUGqeXlVaT12Hz14n4c0DQaw6lhn8x28usxLa15qWNQJtGDJXdl7mWEy8qs400dkwj9I0J">
+              // buy-button-id="buy_btn_1Qur4TFE3lcYYI0Qm47QfSxG"
+              // publishable-key="pk_live_51Quq6zFE3lcYYI0QaKgeMb4WjyVVeUGqeXlVaT12Hz14n4c0DQaw6lhn8x28usxLa15qWNQJtGDJXdl7mWEy8qs400dkwj9I0J">
             </stripe-buy-button>
           </div>
         </div>
@@ -104,11 +104,11 @@ defineProps({
 
 .support-methods {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 三列等宽布局 */
+  grid-template-columns: repeat(2, 1fr); /* 三列等宽布局 */
   gap: 1.5rem;
   margin: 2rem 0;
   align-items: stretch; /* 确保所有卡片高度一致 */
-  max-width: 900px; /* 限制最大宽度 */
+  max-width: 600px; /* 限制最大宽度 */
   margin-left: auto;
   margin-right: auto;
 }

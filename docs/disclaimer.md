@@ -101,8 +101,8 @@
 
 如果您有任何问题或建议，请通过以下方式联系我们：
 
-- **QQ群**：[1019984660](https://qm.qq.com/q/M9U9Hhd1wQ)
-- **邮箱**：mswnlz@gmail.com
+- **QQ群**：[点击加入QQ群](https://qm.qq.com/q/gOI5eLKk70)
+- **邮箱**：s2622658510@163.com
 
 ---
 
