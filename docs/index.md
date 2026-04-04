@@ -152,8 +152,6 @@ QQ群 1095830226
 
 </div>
 
-<GitHubLink />
-
 <SupportSection />
 
 ---
