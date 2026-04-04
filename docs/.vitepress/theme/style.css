@@ -16,13 +16,19 @@
   text-align: left !important;
 }
 
-/* Hero 按钮文字改为白色 */
-.VPHero .VPButton.alt,
+/* Hero 按钮文字改为白色 - 使用最强选择器 */
+.VPHero .actions .action .VPButton.alt,
+.actions .action .VPButton.alt,
 .VPButton.alt {
   color: #ffffff !important;
-  background-color: var(--vp-c-brand-1) !important;
-  border-color: var(--vp-c-brand-1) !important;
 }
+
+.VPHero .actions .action .VPButton.alt:hover,
+.actions .action .VPButton.alt:hover,
+.VPButton.alt:hover {
+  color: #ffffff !important;
+}
+
 
 .VPHero .VPButton.alt:hover,
 .VPButton.alt:hover {
