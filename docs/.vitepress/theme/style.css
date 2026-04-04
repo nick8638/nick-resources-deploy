@@ -9,9 +9,26 @@
 }
 
 .VPHero .tagline {
-  font-size: 1.2em;
-  font-weight: 500;
-  margin-top: 1rem;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  margin-top: 0.75rem !important;
+  max-width: none !important;
+  text-align: left !important;
+}
+
+/* Hero 按钮文字改为白色 */
+.VPHero .VPButton.alt,
+.VPButton.alt {
+  color: #ffffff !important;
+  background-color: var(--vp-c-brand-1) !important;
+  border-color: var(--vp-c-brand-1) !important;
+}
+
+.VPHero .VPButton.alt:hover,
+.VPButton.alt:hover {
+  color: #ffffff !important;
+  background-color: var(--vp-c-brand-2) !important;
+  border-color: var(--vp-c-brand-2) !important;
 }
 
 /* 功能卡片优化 */
@@ -20,15 +37,20 @@
 }
 
 .VPFeature {
-  border: 1px solid var(--vp-c-border);
-  border-radius: 16px;
-  padding: 2rem;
-  height: auto;
-  min-height: 180px;
+  border: 1px solid #e3e3e8 !important;
+  border-radius: 16px !important;
+  padding: 2rem !important;
+  height: 280px !important;
+  min-height: 280px !important;
+  max-height: 280px !important;
   transition: all 0.3s ease;
-  background: var(--vp-c-bg-soft);
+  background: #f6f6f9 !important;
   position: relative;
   overflow: hidden;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
 }
 
 .VPFeature:hover {
@@ -67,7 +89,7 @@
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--vp-c-text-2);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -142,7 +164,7 @@
 
 .keyword-tags code:hover {
   background: var(--vp-c-brand-1);
-  color: var(--vp-c-white);
+  color: var(--vp-white);
   transform: scale(1.05);
 }
 
@@ -163,7 +185,9 @@
 /* 响应式优化 */
 @media (max-width: 768px) {
   .VPFeature {
-    min-height: 150px;
+    height: 260px;
+    min-height: 260px;
+    max-height: 260px;
     padding: 1.5rem;
   }
   
@@ -190,23 +214,12 @@
 
 /* 暗黑模式适配 */
 .dark .VPFeature {
-  background: var(--vp-c-bg-elv);
-  border-color: var(--vp-c-divider);
+  background: #1e1e2e !important;
+  border-color: #3a3a4a !important;
 }
 
 .dark .VPFeature:hover {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
-}
-
-/* 添加渐变边框效果 */
-.VPFeature {
-  background: linear-gradient(var(--vp-c-bg-soft), var(--vp-c-bg-soft)) padding-box,
-              linear-gradient(135deg, transparent, var(--vp-c-brand-soft)) border-box;
-}
-
-.dark .VPFeature {
-  background: linear-gradient(var(--vp-c-bg-elv), var(--vp-c-bg-elv)) padding-box,
-              linear-gradient(135deg, transparent, var(--vp-c-brand-soft)) border-box;
 }
 
 /* Support button styles */
@@ -266,30 +279,4 @@ stripe-buy-button {
     padding: 3px 7px;
     font-size: 12px;
   }
-}
-/* ====== 尼克的自定义修复样式 ====== */
-
-/* Tab 导航栏蓝色按钮 - 激活状态的文字改为白色 */
-.tab-button.active {
-  color: #ffffff !important;
-}
-
-.tab-button.active .tab-text {
-  color: #ffffff !important;
-}
-
-.tab-button.active .tab-icon {
-  color: #ffffff !important;
-}
-
-/* Tab 导航栏日期文字完整显示，不换行截断 */
-.tabs-nav {
-  overflow-x: auto !important;
-  flex-wrap: nowrap !important;
-}
-
-.tab-button {
-  flex-shrink: 0 !important;
-  white-space: nowrap !important;
-  min-width: fit-content !important;
 }
