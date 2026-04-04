@@ -146,7 +146,7 @@ QQ群 1095830226
 
 ### 🔍 热门搜索关键词
 
-<div class="keyword-tags">
+<div class="keyword-tags" style="display: flex; flex-wrap: wrap; gap: 1rem 0.5rem;">
 
 `免费资源下载` `AI教程` `电子书下载` `跨境电商教程` `自媒体运营` `在线教育` `健身视频` `电影资源` `软件工具` `设计素材` `编程教程` `考试资料` `夸克网盘` `阿里网盘` `TikTok营销` `亚马逊开店` `提示词工程` `机器学习`
 
