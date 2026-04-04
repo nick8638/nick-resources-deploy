@@ -13,7 +13,7 @@
         </div>
         <div class="method-content">
           <div class="payment-display">
-            <img src="/support-alipay.png" alt="支付宝赞赏二维码">
+            <img src="/alipay.jpg" alt="支付宝赞赏二维码">
           </div>
         </div>
         <div class="method-footer">
@@ -28,7 +28,7 @@
         </div>
         <div class="method-content">
           <div class="payment-display">
-            <img src="/support-wechat.jpg" alt="微信赞赏二维码">
+            <img src="/wechat.jpg" alt="微信赞赏二维码">
           </div>
         </div>
         <div class="method-footer">
@@ -42,9 +42,9 @@
           <h4>💳 国际支付</h4>
         </div>
         <div class="method-content">
-          <div class="payment-display">
-            <!-- Stripe 暂未启用 -->
-          </div>
+        <div class="payment-display">
+          <!-- Stripe支付按钮区域，暂未启用 -->
+        </div>
         </div>
         <div class="method-footer">
           <p class="method-desc">支持信用卡、PayPal等</p>
@@ -101,11 +101,11 @@ defineProps({
 
 .support-methods {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 三列等宽布局 */
+  grid-template-columns: repeat(3, 1fr); /* 三列等宽布局 */
   gap: 1.5rem;
   margin: 2rem 0;
   align-items: stretch; /* 确保所有卡片高度一致 */
-  max-width: 600px; /* 限制最大宽度 */
+  max-width: 900px; /* 限制最大宽度 */
   margin-left: auto;
   margin-right: auto;
 }
