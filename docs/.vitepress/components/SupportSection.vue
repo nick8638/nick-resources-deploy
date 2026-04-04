@@ -13,7 +13,7 @@
         </div>
         <div class="method-content">
           <div class="payment-display">
-            <img src="/support-alipay.png" alt="支付宝赞赏二维码" >
+            <img src="/support-alipay.png" alt="支付宝赞赏二维码">
           </div>
         </div>
         <div class="method-footer">
@@ -28,7 +28,7 @@
         </div>
         <div class="method-content">
           <div class="payment-display">
-            <img src="/support-wechat.jpg" alt="微信赞赏二维码" >
+            <img src="/support-wechat.jpg" alt="微信赞赏二维码">
           </div>
         </div>
         <div class="method-footer">
