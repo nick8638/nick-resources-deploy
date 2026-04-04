@@ -111,7 +111,7 @@ export default {
       loadTabContent(tabId)
     }
 
-    // 加载Tab内容
+    // 加载Tab内容 - 从public目录访问静态markdown文件（与参考站一致）
     const loadTabContent = async (tabId) => {
       if (tabs[tabId].content || tabs[tabId].loading) {
         return // 已加载或正在加载中
@@ -121,8 +121,9 @@ export default {
       tabs[tabId].error = null
 
       try {
-        // 从public目录访问静态markdown文件
-        const response = await fetch(`/${props.category}/${tabId}.md`)
+        // 使用 base 前缀 + 分类 + 月份.md 访问 public 目录下的静态文件
+        const basePath = '/'
+        const response = await fetch(`${basePath}${props.category}/${tabId}.md`)
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}: ${response.statusText}`)
         }
