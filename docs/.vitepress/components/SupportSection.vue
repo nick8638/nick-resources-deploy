@@ -43,10 +43,7 @@
         </div>
         <div class="method-content">
           <div class="payment-display">
-            <stripe-buy-button
-              // buy-button-id="buy_btn_1Qur4TFE3lcYYI0Qm47QfSxG"
-              // publishable-key="pk_live_51Quq6zFE3lcYYI0QaKgeMb4WjyVVeUGqeXlVaT12Hz14n4c0DQaw6lhn8x28usxLa15qWNQJtGDJXdl7mWEy8qs400dkwj9I0J">
-            </stripe-buy-button>
+            <!-- Stripe 暂未启用 -->
           </div>
         </div>
         <div class="method-footer">
