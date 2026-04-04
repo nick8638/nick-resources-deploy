@@ -146,14 +146,14 @@
 /* 关键词标签优化 */
 .keyword-tags {
   margin: 2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 0.5rem;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 1rem 0.5rem !important;
 }
 
 .keyword-tags code {
   display: inline-block;
-  margin: 0;
+  margin: 0 !important;
   padding: 0.5rem 1rem;
   background: var(--vp-c-brand-soft);
   color: var(--vp-c-brand-1);
