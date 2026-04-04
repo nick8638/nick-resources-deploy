@@ -30,6 +30,11 @@ const { frontmatter } = useData()
   --vp-button-brand-active-border: var(--vp-c-brand-1);
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+  /* Alt 按钮文字改为白色 */
+  --vp-button-alt-text-color: #ffffff;
+  --vp-button-alt-hover-text-color: #ffffff;
+  --vp-button-alt-hover-border: #ffffff;
+  --vp-button-alt-hover-bg: rgba(255, 255, 255, 0.15);
 }
 
 /* Enhanced Hero Section */
