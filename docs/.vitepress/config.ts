@@ -19,7 +19,7 @@ function getSidebarItems(dir: string) {
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
-  base: '/nick-resources-deploy/',
+  base: '/',
   title: "超过 100T 的资源",
   titleTemplate: ":title - 尼克的资源收集站 | 免费资源下载",
   lang: 'zh-CN',
