@@ -16,9 +16,18 @@
   text-align: left !important;
 }
 
-/* Hero 按钮文字改为白色 */
-.VPHero .VPButton.alt {
+/* Hero 按钮文字改为白色 - 使用最强选择器覆盖 VitePress 默认 */
+.VPHero .actions .action .VPButton.alt,
+.VPHero .actions .action .VPButton.alt .label,
+.actions .action .VPButton.alt,
+.actions .action .VPButton.alt .label {
   color: #ffffff !important;
+}
+/* 强制覆盖 alt 按钮的所有颜色相关属性 */
+.VPButton.alt {
+  color: var(--vp-button-alt-text-color) !important;
+  --vp-button-alt-text-color: #ffffff !important;
+  --vp-c-text-1: #ffffff !important;
 }
 
 /* 功能卡片优化 */
